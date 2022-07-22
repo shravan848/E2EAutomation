@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression TestNG Suite">
+<listeners>
+<listener class-name="qaclickacademy.ExtentListener"/>
+</listeners>
+  <test thread-count="5" name="Shravan Test" parallel="classes">
+  
+    <classes>
+           <class name="qaclickacademy.SeleniumTest"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
